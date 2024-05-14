@@ -20,7 +20,7 @@
     left: 0;
 }
 .slider {
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .slider ul{
     display: flex;
@@ -40,4 +40,19 @@
     border-radius: 10px;
     color: #676767;
     line-height: 1.4;
+}
+.slide img{
+    width: 65px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 4px solid #212EA0;
+}
+.user-info{
+    display: flex;
+    align-items: flex;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.user-info h3{
+    color: #212EA0;
 }
